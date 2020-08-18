@@ -13,5 +13,4 @@ To use this application, please follow the following steps.
 	
 	For the Skill input, the user can enter any string value if the input invalid data not found will be returned finally.
 	For Year and Month inputs, proper input has to be entered by the user. Otherwise, it will ask the user until it finds acceptable value for each variables individually.
-
-
+4.  If the correct combination found the selected date with skill summation result will be displayed.
