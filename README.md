@@ -9,7 +9,9 @@ To use this application, please follow the following steps.
 		Enter Skill: DD
 		Enter Year: 2020
 		Enter Month: 12
-	Note: after entering each parameters enter key is required.
+	Note: after entering each parameters Enter/Return key is required.
 	
+	For the Skill input, the user can enter any string value if the input invalid data not found will be returned finally.
+	For Year and Month inputs, proper input has to be entered by the user. Otherwise, it will ask the user until it finds acceptable value for each variables individually.
 
 
