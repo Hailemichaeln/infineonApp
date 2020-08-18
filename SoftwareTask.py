@@ -12,9 +12,7 @@ class inputData:
             self.skill = skill
             self.year = year
             self.month = month
-
-    
-                    
+                  
 file_name = r'Site_Capacity.xlsx' #initialize file path
 df = pd.read_excel (file_name, sheet_name='Sheet1') #reading excel file to df variable
 #Entering infinite loop
@@ -47,7 +45,8 @@ while(1):
         sSet = df[df["Skill"]==datas.skill].head()
         try:
             sSet2 = sSet[[datetime.datetime(datas.year, datas.month, 1)]]
-            result = sSet2.sum(axis = 0)
+            result = sSet2.sum(axis = 0,skipna = False)
+            print(sSet2)
             print(result)
         except KeyError:
             print("Data not found based on the input. Please try again") #if exception happens print this line and try to accept inpu again
