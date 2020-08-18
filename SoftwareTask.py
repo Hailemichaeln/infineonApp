@@ -12,7 +12,7 @@ class inputData:
             self.skill = skill
             self.year = year
             self.month = month
-                  
+                   
 file_name = r'Site_Capacity.xlsx' #initialize file path
 df = pd.read_excel (file_name, sheet_name='Sheet1') #reading excel file to df variable
 #Entering infinite loop
