@@ -4,7 +4,7 @@ Your application at Infineon: Software task - Getu - 08-18
 To use this application, please follow the following steps.
 1. Make sure the python file 'SoftwareTask.py' and excel file 'Site_Capacity.xlsx' are in the same folder.
 2. Open the python file 'SoftwareTask.py' and run it.
-3. The terminal window opens and ask the user to enter three parameters:
+3. The terminal window opens and wait for the user to enter three parameters, Skill as "$$", Year as "YYYY" and Month as "MM":
 	example:
 		Enter Skill: DD
 		Enter Year: 2020
